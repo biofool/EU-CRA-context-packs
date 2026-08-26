@@ -14,15 +14,11 @@ Unit count | 4 (1 annex + 3 points)
 
 * * *
 
-## `CRA-ANNEX-IV`
-
-### ANNEX IV
-
-### CRITICAL PRODUCTS WITH DIGITAL ELEMENTS
+## CRA-ANNEX-IV — ANNEX IV
 
 * * *
 
-### `CRA-ANNEX-IV-PT-1`
+### CRA-ANNEX-IV-PT-1
 
 >   1. Hardware Devices with Security Boxes
 > 
@@ -30,7 +26,7 @@ Unit count | 4 (1 annex + 3 points)
 
 * * *
 
-### `CRA-ANNEX-IV-PT-2`
+### CRA-ANNEX-IV-PT-2
 
 >   2. Smart meter gateways within smart metering systems as defined in Article 2, point (23) of Directive (EU) 2019/944 of the European Parliament and of the Council (1) and other devices for advanced security purposes, including for secure cryptoprocessing
 > 
@@ -38,7 +34,7 @@ Unit count | 4 (1 annex + 3 points)
 
 * * *
 
-### `CRA-ANNEX-IV-PT-3`
+### CRA-ANNEX-IV-PT-3
 
 >   3. Smartcards or similar devices, including secure elements
 > 

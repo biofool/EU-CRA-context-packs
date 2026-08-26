@@ -4,7 +4,7 @@
 
 * * *
 
-## CRA-ANNEX-V — ANNEX V: EU DECLARATION OF CONFORMITY
+## CRA-ANNEX-V — ANNEX V — EU DECLARATION OF CONFORMITY
 
 The EU declaration of conformity referred to in Article 28, shall contain all of the following information:
 

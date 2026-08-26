@@ -4,11 +4,7 @@
 
 * * *
 
-## CRA-ANNEX-II
-
-### ANNEX II
-
-### INFORMATION AND INSTRUCTIONS TO THE USER
+## CRA-ANNEX-II — ANNEX II
 
 At minimum, the product with digital elements shall be accompanied by:
 

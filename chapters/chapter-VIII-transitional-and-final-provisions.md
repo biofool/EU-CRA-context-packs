@@ -6,15 +6,11 @@ This is a self-contained context pack containing the full verbatim text of Chapt
 
 * * *
 
-## CHAPTER VIII — TRANSITIONAL AND FINAL PROVISIONS
-
-**Stable ID:** `CRA-CHAP-VIII`
+## CRA-CHAP-VIII — CHAPTER VIII — TRANSITIONAL AND FINAL PROVISIONS
 
 * * *
 
-## Article 66 — Amendment to Regulation (EU) 2019/1020
-
-**Stable ID:** `CRA-ART-66`
+### CRA-ART-66 — Article 66 — Amendment to Regulation (EU) 2019/1020
 
 ### `CRA-ART-66-PARA-1`
 
@@ -24,9 +20,7 @@ In Annex I to Regulation (EU) 2019/1020, the following point is added: ‘72. Re
 
 * * *
 
-## Article 67 — Amendment to Directive (EU) 2020/1828
-
-**Stable ID:** `CRA-ART-67`
+### CRA-ART-67 — Article 67 — Amendment to Directive (EU) 2020/1828
 
 ### `CRA-ART-67-PARA-1`
 
@@ -36,9 +30,7 @@ In Annex I to Directive (EU) 2020/1828, the following point is added: ‘69. Reg
 
 * * *
 
-## Article 68 — Amendment to Regulation (EU) No 168/2013
-
-**Stable ID:** `CRA-ART-68`
+### CRA-ART-68 — Article 68 — Amendment to Regulation (EU) No 168/2013
 
 ### `CRA-ART-68-PARA-1`
 
@@ -46,9 +38,7 @@ In Part C1, in the table, of Annex II to Regulation (EU) No 168/2013 of the Euro
 
 * * *
 
-## Article 69 — Transitional provisions
-
-**Stable ID:** `CRA-ART-69`
+### CRA-ART-69 — Article 69 — Transitional provisions
 
 ### `CRA-ART-69-PARA-1`
 
@@ -70,9 +60,7 @@ In Part C1, in the table, of Annex II to Regulation (EU) No 168/2013 of the Euro
 
 * * *
 
-## Article 70 — Evaluation and review
-
-**Stable ID:** `CRA-ART-70`
+### CRA-ART-70 — Article 70 — Evaluation and review
 
 ### `CRA-ART-70-PARA-1`
 
@@ -88,9 +76,7 @@ In Part C1, in the table, of Annex II to Regulation (EU) No 168/2013 of the Euro
 
 * * *
 
-## Article 71 — Entry into force and application
-
-**Stable ID:** `CRA-ART-71`
+### CRA-ART-71 — Article 71 — Entry into force and application
 
 ### `CRA-ART-71-PARA-1`
 
@@ -100,9 +86,23 @@ In Part C1, in the table, of Annex II to Regulation (EU) No 168/2013 of the Euro
 
 ### `CRA-ART-71-PARA-2`
 
-  2. This Regulation shall apply from 11 December 2027. However, Article 14 shall apply from 11 September 2026 and Chapter IV (Articles 35 to 51) shall apply from 11 June 2026. This Regulation shall be binding in its entirety and directly applicable in all Member States. Done at Strasbourg, 23 October 2024. For the European Parliament For the Council The President The President R. METSOLA ZSIGMOND B. P.
+  2. This Regulation shall apply from 11 December 2027. However, Article 14 shall apply from 11 September 2026 and Chapter IV (Articles 35 to 51) shall apply from 11 June 2026.
 
 
+
+* * *
+
+## Non-unit trailer — Regulation final formula and signature block
+
+The following text is the Regulation's closing formula and signature block. It is reproduced verbatim from the source but is **not** a legal unit of Article 71(2); it has no stable ID and is kept here only for completeness so the pack mirrors the printed page.
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States.
+
+Done at Strasbourg, 23 October 2024.
+
+For the European Parliament — The President — R. METSOLA
+
+For the Council — The President — ZSIGMOND B. P.
 
 * * *
 
