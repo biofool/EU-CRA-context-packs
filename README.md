@@ -14,6 +14,69 @@ The underlying text was **parsed from a third-party GitHub mirror** of the Offic
 
 **Anyone relying on a specific provision for compliance purposes should verify the exact wording against [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847) directly**, rather than relying solely on this repository.
 
+## How to use this repository
+
+### Setup
+
+No installation is required. The repository contains plain Markdown files and one optional Python 3 helper script. Clone or download the repository, then open any file in a text editor, Markdown viewer, or browser.
+
+### Find and cite a unit
+
+Each recital, article, paragraph, point, and annex subdivision has a stable ID:
+
+- `CRA-REC-10` — recital 10 in [`recitals.md`](recitals.md)
+- `CRA-ART-13-PARA-2` — Article 13(2) in [`chapters/chapter-II-obligations-of-economic-operators.md`](chapters/chapter-II-obligations-of-economic-operators.md)
+- `CRA-ANNEX-I-PART-II-PT-3` — Annex I, Part II, point 3 in [`annexes/annex-I-essential-cybersecurity-requirements.md`](annexes/annex-I-essential-cybersecurity-requirements.md)
+
+Use the table below to locate the file for a chapter or annex, then search inside that file for the ID.
+
+### Search the text
+
+Use a command-line search tool:
+
+```bash
+# find every occurrence of "support period" in the packs
+rg "support period" chapters/ annexes/ recitals.md
+
+# find a specific stable ID
+rg "CRA-ART-13-PARA-2" chapters/
+```
+
+Or use your editor's search function inside the relevant file.
+
+### Validate formatting
+
+Run the normalisation script in check mode to confirm that every pack file follows the heading conventions:
+
+```bash
+python3 scripts/normalize_pack_headings.py --check
+```
+
+To apply formatting fixes in place:
+
+```bash
+python3 scripts/normalize_pack_headings.py
+```
+
+The script only changes Markdown structure, never legal wording.
+
+### Deployment notes
+
+These files are static Markdown. You can:
+
+- View them directly on GitHub or GitLab.
+- Host them with any static-site generator or web server.
+- Publish them through GitHub Pages, GitLab Pages, or a documentation platform.
+
+There is no server-side code, no build step, and no secret to configure. Keep the [`LICENSE`](LICENSE) and this README with any redistributed copy.
+
+### Important caveats
+
+- The underlying text is a snapshot from a third-party PDF mirror, not a live EUR-Lex fetch.
+- Two corrigenda (2024-12-05 and 2025-07-02) were not checked against this text.
+- Paragraph and point boundaries are a mechanical parse; they have not had legal review.
+- This repository is not legal advice. Verify the exact wording on [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847) before relying on a provision for compliance.
+
 ## Contents
 
 | File | Contents |
