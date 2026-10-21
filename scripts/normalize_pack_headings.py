@@ -595,9 +595,13 @@ def normalize_lines(lines: list[str]) -> list[str]:
         annex_ctr = _normalize_annex_container(stripped)
         if annex_ctr is not None:
             result.append(annex_ctr)
-            # Skip following standalone ID lines and subtitle/title lines
+            # Skip following standalone ID lines and subtitle/title lines —
+            # but capture a title so it is merged into the container, not
+            # silently deleted (issue #4). The window is bounded so an
+            # unrelated all-caps heading further down can't be eaten.
             j = i + 1
-            while j < len(lines):
+            captured_title = None
+            while j < len(lines) and j - i <= 10:
                 nxt = lines[j].rstrip()
                 if nxt == "":
                     if j + 1 < len(lines) and (
@@ -612,11 +616,20 @@ def normalize_lines(lines: list[str]) -> list[str]:
                 if _is_standalone_id_line(nxt):
                     j += 1
                     continue
-                # Skip ### ANNEX II / ### TITLE / ## TITLE subtitle lines
-                if RE_ANNEX_SUBTITLE.match(nxt) or RE_ANNEX_TITLE_LINE.match(nxt) or RE_ANNEX_TITLE_H2.match(nxt):
+                if RE_ANNEX_SUBTITLE.match(nxt):
+                    j += 1
+                    continue
+                mt = RE_ANNEX_TITLE_LINE.match(nxt) or RE_ANNEX_TITLE_H2.match(nxt)
+                if mt:
+                    if captured_title is None:
+                        captured_title = mt.group(1).strip()
                     j += 1
                     continue
                 break
+            # Merge a captured title only when the emitted container has
+            # none — a container that already carries a title keeps it.
+            if captured_title and annex_ctr.count(" — ") < 2:
+                result[-1] = f"{annex_ctr} — {captured_title}"
             i = j
             continue
 
