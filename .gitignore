@@ -1,2 +1,9 @@
 # AI context generation artifacts
 .ai-context/
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+service-account*.json
+__pycache__/
